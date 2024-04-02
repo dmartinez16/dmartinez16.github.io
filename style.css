@@ -1,0 +1,748 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.clsMainContainer{
+    background-color: #052540;
+}
+
+.clsMainContainer .clsHeader{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: inherit;
+    padding: 0 3rem;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    align-items: center;
+}
+
+.clsMainContainer .clsHeader .clsMenHamburguer{
+    display: none;
+}
+
+.clsMainContainer .clsHeader .logoHome{
+    height: 4rem;
+    width: 10rem;
+    line-height: 6rem;
+}
+
+.clsMainContainer .clsHeader .list-navbar{
+    display: flex;
+    gap: 30px;
+    line-height: 33px;
+}
+
+.clsMainContainer .clsHeader .list-navbar .clsListOptions{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.clsMainContainer .clsHeader .list-navbar .clsListOptions .clsLinkOption{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.clsMainContainer .clsHeader #menu .list-navbar{
+    display: none;
+}
+
+
+/*Seccion de Inicio*/
+
+.clsMainContainer .clsHome .clsContainerHome{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 7.5% 7%;
+    color: white;
+    gap: 3em;
+}
+
+.clsMainContainer .clsHome .imgHome{
+    width: 30em;
+    border-radius: 4px;
+    height: 40em;
+}
+
+.clsMainContainer .clsHome .clsContainerHome .clsHomePresentation .clsSubtitleHome{
+    margin-bottom: 40px;
+}
+
+.clsMainContainer .clsHome .clsContainerHome .clsHomePresentation .clsTitleHome{
+    color:aquamarine
+}
+
+.clsMainContainer .clsHome .clsContainerHome .clsHomePresentation .clsSubtitleHome .clsDynamicText, .typed-cursor{
+    color: aquamarine;
+    font-weight: bold;
+
+}
+
+.clsMainContainer .clsHomePresentation .btn-CV, .clsMainContainer .clsContactContainer .clsForm .btn-Submit{
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: aquamarine;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border: 0px;
+    cursor: pointer;
+    width: 18rem;
+    text-align: center;
+} 
+
+.clsMainContainer .clsHome .clsContainerHome .clsHomePresentation .clsCvHome .btn-CV:hover,.clsMainContainer .clsContactContainer .clsForm .btn-Submit:hover{
+    color: aquamarine;
+    background-color: black;
+}
+
+.clsMainContainer .clsHome .clsContainerHome .clsHomePresentation .DescripctionHomeTwo{
+    margin-top: 15px;
+}
+
+.clsMainContainer .clsHome .clsContainerHome .DescripctionHome,.clsMainContainer .clsHome .DescripctionHomeTwo{
+    font-size: 22px;
+    text-align: justify;
+    color: #dff0f1;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.clsMainContainer .clsHome .clsContainerHome .clsHomePresentation .clsCvHome .titleHomeCV{
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+
+
+.clsMainContainer .clsHome .clsContainerHome .clsHomePresentation .clsCvHome .clsLink .clsIcon{
+    color: #d7a1f1;
+    font-size: 80px;
+}
+
+.clsMainContainer .clsHome .clsContainerHome .clsHomePresentation .clsSocialNetworks{
+    margin-top: 30px;
+}
+
+.clsMainContainer .clsHome .clsContainerHome .clsHomePresentation .clsSocialNetworks a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #0ef;
+    background: transparent;
+    border-radius: 50%;
+    color: #0ef;
+    text-decoration: none;
+    margin: 0px 15px 30px 0px;
+}
+
+.clsMainContainer .clsHome .clsContainerHome .clsHomePresentation .clsSocialNetworks a:hover{
+    background-color: black;
+    color: #f5f5f5;
+}
+
+/*Seccion Sobre Mi*/
+
+.clsMainContainer .clsContainerAboutMe{
+    display: flex;
+    padding: 7% 12%;
+    gap: 70px;
+}
+
+.clsMainContainer .clsContainerAboutMe .clsImgMyFace img{
+    width: 450px;
+    height: 700px;
+    border-radius: 4px;
+}
+
+.clsMainContainer .clsContainerAboutMe .clsTitleAboutMe{
+    font-size: 50px;
+    color: aquamarine;
+    margin-bottom: 25px;
+}
+
+.clsMainContainer .clsContainerAboutMe .clsParagraphAboutMe{
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #dff0f1;
+    font-weight: 500;
+}
+
+.clsMainContainer .clsContainerAboutMe .clsParagraphAboutMe .clsInfoAboutMe{
+    text-decoration: none;
+    color: aquamarine;
+    font-style: oblique;
+}
+
+.clsMainContainer .clsContainerAboutMe .clsParagraphAboutMe .clsInfoAboutMe:hover{
+    text-decoration: underline;
+    color: aquamarine;
+}
+
+/*SubTitle About*/
+
+.clsMainContainer .clsContainerAboutMe .clsContainerSubAboutMe{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    color: white;
+    gap: 60px;
+    margin: 40px 0px;
+    text-decoration: underline;
+}
+
+.clsMainContainer .clsContainerAboutMe .clsContainerSubAboutMe .clsSubAboutMe:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+
+.clsMainContainer .clsContainerAboutMe .descriptionAbout{
+    color: white;
+}
+
+.clsMainContainer .clsContainerAboutMe .descriptionAbout li{
+    color: blanchedalmond;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+
+.clsMainContainer .clsContainerAboutMe .descriptionAbout p{
+    margin-top: 5px;
+}
+
+/*Cards*/
+
+.clsMainContainer .clsSectionTechnologies {
+    padding-top: 4%;
+    margin-bottom: 3rem;
+}
+
+.clsMainContainer .clsSectionTechnologies .clsTitleTechnologies{
+    font-size: 50px;
+    color: aquamarine;
+    text-align: center;
+}
+
+.clsMainContainer .clsSectionTechnologies .clsDescriptionSkills{
+    font-size: 20px;
+    color: #dff0f1;
+    font-weight: 500;
+    text-align: justify;
+    padding: 25px 15%;
+}
+
+.clsMainContainer .clsTechnologies{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+}
+
+.clsMainContainer .clsTechnologies .clsCard{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0px 85px;
+}
+
+.clsMainContainer .clsTechnologies .clsCard .clsCardBody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.clsMainContainer .clsTechnologies .clsCard .clsFaceCard{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.clsMainContainer .clsTechnologies .clsCard .clsFaceCard img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: white;
+}
+
+.clsMainContainer .clsTechnologies .clsCard .clsFaceCard h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    background: rgba(0, 0, 0, .4);
+    text-align: center;
+}
+
+.clsMainContainer .clsTechnologies .clsCard .clsBackCard{
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.clsMainContainer .clsTechnologies .clsCard .clsBackCard .clsLink{
+    border-top: solid 1px white;
+    height: 50px;
+    line-height: 50px;
+}
+
+.clsMainContainer .clsTechnologies .clsCard .clsBackCard .clsLink a{
+    color: white;
+    margin-top: 5px;
+}
+
+.clsMainContainer .clsTechnologies .clsCard .clsBackCard .clsLink h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.clsMainContainer .clsTechnologies .clsCard .clsBackCard .clsLink p{
+    letter-spacing: 1px;
+}
+
+.clsMainContainer .clsTechnologies .clsCard:hover .clsFaceCard{
+    transform:  perspective(600px) rotateY(180deg);
+}
+
+.clsMainContainer .clsTechnologies .clsCard:hover .clsBackCard{
+    transform:  perspective(600px) rotateY(360deg);
+}
+
+.clsMainContainer .clsTechnologies .clsCard .clsBackCard .clsLink a:hover {
+    color: aquamarine;
+}
+
+/*Certifications*/
+
+.clsMainContainer .clsContainerCerti{
+    position: relative;
+    min-height: 100vh;
+}
+
+.clsMainContainer .clsContainerCerti .clsContainerDescription{
+    padding-top: 3%;
+    margin-bottom: 1%;
+}
+
+.clsMainContainer .clsContainerCerti .clsTitleCerti{
+    font-size: 40px;
+    font-weight: normal;
+    padding: 15px;
+    text-align: center;
+    color: aquamarine;
+    text-transform:  capitalize;
+
+}
+
+.clsMainContainer .clsContainerCerti .clsCertificationP{
+    text-align: center;
+    text-transform:  capitalize;
+    color: #dff0f1;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.clsMainContainer .clsContainerCerti .clsImgCertification{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;  
+    justify-content: center;
+    padding:10px;
+}
+
+.clsMainContainer .clsContainerCerti .clsImgCertification .ImgContainer{
+    height: 335px;
+    width: 500px;
+    border: 10px solid #FFF;
+    box-shadow:  0 5px 15px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.clsMainContainer .clsContainerCerti .clsImgCertification .ImgContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    transition: .2s linear;
+}
+
+.clsMainContainer .clsContainerCerti .clsImgCertification .ImgContainer:hover img{
+    transform: scale(1.1);
+}
+
+.clsMainContainer .clsContainerCerti .clic-Img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.clsMainContainer .clsContainerCerti .clic-Img span{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.clsMainContainer .clsContainerCerti .clic-Img img{
+    position: absolute;
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #052540;
+    border-radius: 5px;
+    width: 800px;
+    object-fit: cover;
+}
+
+@media (max-width:768px){
+    .clsMainContainer .clsContainerCerti .clic-Img img{
+        width: 95%;
+    }
+}
+
+/*Contact Me*/
+
+.clsMainContainer .clsContactContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    gap: 210px;
+    align-items: normal;
+}
+
+.clsMainContainer .clsContactContainer .clsContactLeft{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: justify;
+    justify-content: center;
+}
+
+.clsMainContainer .clsContactContainer .clsContactLeft .clsTitleLeft{
+    color: aquamarine;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.clsMainContainer .clsContactContainer .clsContactLeft .clsItemLeft{
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.clsMainContainer .clsContactContainer .clsContactLeft .clsItemLeft::before{
+    font-size: 25px;
+    color: #ffce12c7;
+    margin-right: 10px;
+    line-height: 30px;
+}
+
+.clsMainContainer .clsContactContainer .clsContactLeft .clsItemLeft a{
+    color: white;
+    text-decoration: none;
+}
+
+.clsMainContainer .clsContactContainer .clsContactLeft .clsItemLeft a:hover{
+    color: aquamarine;
+}
+
+.clsMainContainer .clsContactContainer .clsForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clsMainContainer .clsContactContainer .clsForm label{
+    color: white;
+    font-size: 1.3rem;
+    text-wrap: nowrap;
+}
+
+.clsMainContainer .clsContactContainer .clsForm .clsFormInput{
+    width: 25rem;
+    height: 40px;
+    margin: 18px 0px;
+    background-color: #202020;
+    color: white;
+    border: 0px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.clsMainContainer .clsContactContainer .clsForm .clsFormInput.clsTextArea{
+    max-width: 500px;
+    max-height: 180px;
+    height: 180px;
+    margin: 25px 0px;
+    background-color: #202020;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: monospace;
+    line-height: 20px;
+    resize: none;
+}
+
+.clsMainContainer .clsContactContainer .clsForm .clsFormInput:focus-visible{
+    outline: none;
+}
+
+/*Modal al enviar los datos*/
+ .clsMainContainer .clsContactContainer .clsContainerPop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.clsMainContainer .clsContactContainer .clsModal{
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    top: 25%;
+    width: 350px;
+    height: 300px;
+    padding: 25px;
+    left: 50%;
+    border-radius: 8px;
+    position: fixed;
+    transform: translate(-50%,50%);
+    text-align: center;
+}
+
+.clsMainContainer .clsContactContainer .clsModal img{
+    margin-top: -50%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2) ;
+}
+
+.clsMainContainer .clsContactContainer .clsModal .clsTitlePop{
+    font-weight: 500;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.clsMainContainer .clsContactContainer .clsModal .clsDescriptionPop{
+    color: black;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.clsMainContainer .clsContactContainer .clsModal .btn-PopModal{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0px;
+    background-color: #6fd649;
+    color: #FFF;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2)
+}
+
+.clsMainContainer .clsContactContainer .clsModal .btn-PopModal:hover{
+    color: white;
+    background-color: rgb(15 99 14);
+} 
+
+/*Mobile*/
+
+@media only screen and (max-width: 1275px){
+    
+    .clsMainContainer .clsHome .clsContainerHome, .clsMainContainer .clsContainerAboutMe {
+        flex-direction: column-reverse;
+        padding: 7.5% 5%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .clsMainContainer .clsHome .clsContainerHome .DescripctionHome,.clsMainContainer .clsHome .DescripctionHomeTwo{
+        padding: unset;
+    }
+
+    .clsMainContainer .clsHome .clsContainerHome .clsHomePresentation .clsHomeImg,
+    .clsMainContainer .clsHome .clsContainerHome .clsHomePresentation {
+        width: 100%;
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+    .clsMainContainer .clsHeader .clsMenHamburguer{
+        display: block;
+        z-index: 10;
+        position: absolute;
+        right: 1rem;
+        margin-right: 2rem;
+    }
+
+    .clsMainContainer .clsHeader .clsMenHamburguer img{
+        cursor: pointer;
+        height: 3rem;
+    }
+
+    .clsMainContainer .clsHeader .top-navbar{
+        display: none;
+    }
+
+/*Menu estilos*/
+
+    .clsMainContainer .clsHeader #menu .list-navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(42, 42, 42);
+        box-shadow: 2px 0px 5px 2px rgb(66, 66, 66);
+        width: 50vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transition: all .5s ease;
+    }
+
+    .clsMainContainer .clsHeader #menu .list-navbar .clsListOptions{
+        padding: 5px 8px 3px 15px;
+        width: 100%;
+        text-align: center;
+        list-style: none;
+    }
+
+    .clsMainContainer .clsHeader #menu .list-navbar .clsListOptions .clsLinkOption{
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .list-navbar li:first-child {
+        margin-top: 4em;
+    }
+
+    /*Menu*/
+
+
+
+    .clsMainContainer .clsHome .clsContainerHome .clsHomePresentation .clsSubtitleHome {
+        margin-bottom: 10px;
+    }
+
+    .clsMainContainer .clsHome .clsContainerHome .clsHomePresentation .DescripctionHome, .clsMainContainer .clsHome .clsContainerHome .clsHomePresentation .DescripctionHomeTwo {
+        font-size: 1.5rem;
+        text-align: center;
+        color: #dff0f1;
+        font-weight: 500;
+        margin-top: 2em;
+    }
+
+    .clsMainContainer .clsHome .imgHome,.clsMainContainer .clsContainerAboutMe .clsImgMyFace img{
+        width: 100%;
+        border-radius: 4px;
+        height: 100%;
+    }
+    
+    /*About Me*/
+
+    .clsMainContainer .clsContainerAboutMe .clsTitleAboutMe{
+        font-size: 2rem;
+        text-align: center;
+        margin: unset;
+        margin-top: 3rem;
+    }
+
+    .clsMainContainer .clsContainerAboutMe .clsParagraphAboutMe{
+        padding: 1rem 2rem;
+    }
+
+    .clsMainContainer .clsContainerAboutMe .clsContainerSubAboutMe{
+        gap: 1rem;
+        font-size: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clsMainContainer .clsContainerAboutMe .descriptionAbout{
+        padding: 0px 2rem;
+    }
+    
+    .clsMainContainer .clsSectionTechnologies .clsTitleTechnologies{
+        font-size: 1.3rem;
+        margin-top: 4rem;
+    }
+
+    .clsMainContainer .clsTechnologies .clsCard {
+        position: relative;
+        width: 25rem;
+        height: 25rem;
+        margin: 1rem 2rem;
+    }
+
+    .clsMainContainer .clsContainerCerti .clsTitleCerti {
+        margin-top: 4rem;
+    }
+
+    .clsMainContainer .clsSectionTechnologies .clsDescriptionSkills {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .clsMainContainer .clsContactContainer{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 40px;
+    }
+
+    .clsMainContainer .clsContactContainer .clsForm .clsFormInput{
+        width: 95%;
+    }
+
+    .clsMainContainer .clsContactContainer .clsContactLeft .clsTitleLeft{
+        margin-top: 3rem;
+    }
+}
