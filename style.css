@@ -176,7 +176,7 @@ html {
 
 .clsMainContainer .clsContainerAboutMe .clsParagraphAboutMe{
     font-size: 1.5rem;
-    text-align: justify;
+    text-align: start;
     color: #dff0f1;
     font-weight: 500;
 }
